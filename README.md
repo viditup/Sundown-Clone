@@ -1,42 +1,97 @@
-# Sundown Studio Clone with Animation
-This project is a clone of the Sundown Studio website, enhanced with smooth animations and modern design elements. The purpose of this project is to replicate the original site's look and feel while integrating custom animations to create a more dynamic and engaging user experience.
+# Sundown Studio Website Clone
 
-#Features
-*Responsive Design: The clone is fully responsive, ensuring a seamless experience across all devices and screen sizes.
-*Smooth Animations: Includes subtle animations for page transitions, hover effects, and element entrances to enhance visual appeal.
-*Modern UI/UX: The design closely follows modern web design practices, creating an attractive and user-friendly interface.
-*Clean Code Structure: Organized and modular code for easy understanding and customization.
+This project is a clone of the **Sundown Studio** website, a multi-disciplinary studio focused on creating unique, end-to-end experiences and environments. The clone features a sleek, minimalist design with dynamic animations, scrolling effects, and video backgrounds that create an immersive experience. This project is built using HTML, CSS, and JavaScript, with additional libraries for enhanced functionality.
 
-#Technologies Used
-*HTML5 & CSS3: For the structure and styling of the website.
-*JavaScript: To implement interactive elements and animations.
-*GSAP (GreenSock Animation Platform): For advanced animations and smooth transitions.
-*Bootstrap: For responsive design and layout.
-*Sass: For more efficient and maintainable CSS.
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Technologies Used](#technologies-used)
+6. [Screenshots](#screenshots)
+7. [License](#license)
 
-#Installation
-*Clone the Repository:
+## Project Overview
 
-git clone https://github.com/yourusername/sundown-studio-clone.git
+This project replicates the **Sundown Studio** website design, offering dynamic visual elements and smooth scrolling effects to simulate the feel of an actual design studio's portfolio website. The website includes several pages with different layouts, including a landing page, a portfolio gallery, and an interactive footer.
 
-*Navigate to the Project Directory:
+## Features
+- **Dynamic Scrolling:** Utilizes [Locomotive Scroll](https://locomotivemtl.github.io/locomotive-scroll/) for smooth scrolling effects.
+- **Image Hover Effects:** Interactive hover animations on images and text.
+- **Video Background:** Video autoplaying in the background of the first section to give a modern look.
+- **Swiper Gallery:** Interactive gallery that showcases a list of projects in a carousel.
+- **Custom Fonts and Styling:** Utilizes custom typography to match the Sundown Studio aesthetic.
 
-cd sundown-studio-clone
+## Installation
 
-*Open the index.html File in Your Browser:
+To get started with this project locally, follow these steps:
 
-Simply open the index.html file in your preferred web browser to view the project locally.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/sundown-clone.git
+   ```
 
-#Usage
-This project can be used as a learning resource for those interested in modern web design and animation techniques. It also serves as a great starting point for anyone looking to create a visually appealing website with smooth animations.
+2. **Navigate into the project folder**:
+   ```bash
+   cd sundown-clone
+   ```
 
-#Contributing
-Contributions are welcome! If you have ideas to improve this project, feel free to submit a pull request. Please make sure your contributions align with the project's goals and code style.
+3. **Open the `index.html` file in your browser** to see the website:
+   ```bash
+   open index.html
+   ```
 
-#License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+Alternatively, if you have a web server (like `Live Server` in Visual Studio Code), you can open the project in the editor and run it directly.
 
-#Acknowledgements
-*Sundown Studio: The original inspiration for this project.
-*GSAP: For providing an excellent platform for creating animations.
-*Bootstrap: For the responsive design framework.
+## Usage
+
+This website is meant to be viewed in a full-screen browser window for the best experience. Here are some of the key interactions:
+
+1. **Homepage (Page 1)**: A large video background, navigation bar, and some introductory text.
+2. **Page 2**: A scrolling animation of words like "EXPERIENCES", "CONTENT", "ENVIRONMENTS" that flow horizontally across the screen.
+3. **Portfolio Page (Page 3)**: This page displays a portfolio of images, with hover effects revealing more information.
+4. **Gallery (Page 4)**: The gallery showcases slides of various images in a carousel format using Swiper.js.
+5. **Footer**: A stylish footer that sticks to the bottom of the screen with a simple logo and contact information.
+
+## Technologies Used
+- **HTML5**: For structure and layout.
+- **CSS3**: For styling and responsive design.
+  - **Key Libraries**:
+    - [Locomotive Scroll](https://locomotivemtl.github.io/locomotive-scroll/) for smooth scrolling effects.
+    - [Swiper.js](https://swiperjs.com/) for the gallery slider.
+- **JavaScript**: For dynamic functionality, animations, and interactions.
+- **Custom Fonts**: Neue Haas Display for a clean, modern typography.
+
+## Screenshots
+
+Here are some screenshots showcasing the look and feel of the website:
+
+### Page 1 (Landing Page)
+![Screenshot 2024-12-22 193405](https://github.com/user-attachments/assets/e4e08852-5b39-434d-9ce3-8c3177b7effe)
+![Screenshot 2024-12-22 193415](https://github.com/user-attachments/assets/b225bcee-3440-42bb-b292-cd0b6592d4e5)
+![Screenshot 2024-12-22 193439](https://github.com/user-attachments/assets/5606f834-d160-45d1-bdad-7f1b696b3b4b)
+
+
+### Page 2 (Dynamic Scrolling Text)
+![Screenshot 2024-12-22 193514](https://github.com/user-attachments/assets/a5bf2405-ceae-4977-9045-095be4abff1c)
+
+
+### Page 3 (Portfolio Gallery)
+![Screenshot 2024-12-22 193527](https://github.com/user-attachments/assets/e4c923e4-bb64-470d-b25f-2429bfb2db81)
+
+
+
+### Page 4 (Swiper Gallery)
+![Screenshot 2024-12-22 193542](https://github.com/user-attachments/assets/4645497f-f512-4143-a575-3e5add90e1c9)
+
+
+### Footer
+
+
+![Screenshot 2024-12-22 193555](https://github.com/user-attachments/assets/f72ed534-3d62-4180-9332-ee72564109a1)
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
